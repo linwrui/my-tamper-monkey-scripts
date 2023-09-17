@@ -12,7 +12,6 @@
 
   // Your code here...
   const layers = document.querySelector('#layers')
-  console.log(layers, layers.children)
   let promise
   let count = 0
   let totalCount = 0
