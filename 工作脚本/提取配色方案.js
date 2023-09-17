@@ -9,7 +9,7 @@
 
 ;(async function () {
   'use strict'
-
+  console.log('start!')
   // Your code here...
   const layers = document.querySelector('#layers')
   let promise
