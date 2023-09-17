@@ -140,13 +140,6 @@
   console.log(colorPalette)
 
   setTimeout(() => {
-    if (window.confirm('配色方案提取完成，已复制到剪贴板')) {
-      const textArea = document.createElement('textarea')
-      textArea.focus()
-      textArea.textContent = JSON.stringify(colorPalette)
-      document.body.appendChild(textArea)
-      textArea.select()
-      console.log(document.execCommand('copy'))
-    }
+    window.alert('配色方案提取完成，请到控制台查看并复制结果')
   }, 80)
 })()
